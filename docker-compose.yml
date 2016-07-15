@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  hhvm:
+    build:
+      dockerfile: hhvm.dockerfile
+      context: .
+
+  nginx:
+    build:
+      dockerfile: nginx.dockerfile
+      context: .
+    ports:
+      - 8001:80
+    links:
+      - hhvm

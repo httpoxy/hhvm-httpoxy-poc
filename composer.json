@@ -1,0 +1,13 @@
+{
+    "name": "httpoxy/hhvm-httpoxy-poc",
+    "description": "PoC of Guzzle proxy misconfiguration under HHVM",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "authors": [
+        {
+            "name": "Dominic Scheirlinck",
+            "email": "dominic@vendhq.com"
+        }
+    ]
+}
